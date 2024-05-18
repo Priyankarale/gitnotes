@@ -1,0 +1,34 @@
+1.what is Git and workflow of Git?
+  Git is a distributed version control system that tracks versions of files. 
+what is version control system?
+     A version control system, or VCS, tracks the history of changes as people and teams collaborate on projects together.
+Version control, also known as source control, is the practice of tracking and managing changes to software code.
+Version control systems are software tools that help software teams manage changes to source code over time.
+Version control software keeps track of every modification to the code in a special kind of database. If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption to all team members.
+
+workflow ---->  remote repository ->clone repository ->local repository ->checkout->workplace
+                workplace->add->commit->local repository->push->remote repository
+
+How to install git
+1.step---->goo just git download
+download git
+2step----->  github sign up
+Git vs. GitHub… what’s the difference? Simply put, Git is a version control system that lets you manage and keep track of your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories. If you have open-source projects that use Git, then GitHub is designed to help you better manage them. 
+
+configuration
+git --inint
+git config --global user.name "Priyanka"
+git congig --global user.email "priyankarale.pk"
+git --list (to see configuration successfully added or not)
+git status
+create a file in vs code
+write something in that file
+check on cmd "git status" --->it will show untracked file
+you need to add this file use add command
+git add .
+commit this with msg what is the purpose of your file give a meaningful msg
+git commit -m "this is my intital commit"
+now add a  your remote repository where you want to put this code
+just go on github copy url of repository and in cmd 
+git remote add origin  URL 
+git remote -v
