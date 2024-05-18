@@ -10,8 +10,7 @@ workflow ---->  remote repository ->clone repository ->local repository ->checko
                 workplace->add->commit->local repository->push->remote repository
 
 How to install git
-1.step---->goo just git download
-download git
+1.step---->  git download
 2step----->  github sign up
 Git vs. GitHub… what’s the difference? Simply put, Git is a version control system that lets you manage and keep track of your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories. If you have open-source projects that use Git, then GitHub is designed to help you better manage them. 
 
