@@ -1,0 +1,7 @@
+///////////////Branching Mechanism/////
+create a feature branch from master branch
+Add new filesinto it
+push them to remote
+merge them to master
+delete local branch 
+delete  remote branch
