@@ -1,0 +1,14 @@
+Branching(create branch,push to remote and delete)
+create a feature branch from master
+add new files into it
+push them to master
+merge them to master
+delete local branch
+delete remote branch
+
+How to create local branch
+git branch userReg
+git branch --list
+when you are creating a feature branch from  the master,whatever you have on master
+that is also present on the  feature branch
+to switch that branch --->git checkoutut userReg
