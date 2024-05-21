@@ -10,7 +10,10 @@ push them to master
 merge them to master
 ===>
 delete local branch
+git branch -d <branchName>
+git branch --list
 delete remote branch
+git push origin --delete <branchName>
 
 How to create local branch
 git branch userReg
@@ -28,5 +31,7 @@ branchName))
 to see on remote use git push
 
 when we are working in the company u have create a pull request and add reviewer
+
+
 
 
