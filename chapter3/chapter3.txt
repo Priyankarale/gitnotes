@@ -12,3 +12,4 @@ git branch --list
 when you are creating a feature branch from  the master,whatever you have on master
 that is also present on the  feature branch
 to switch that branch --->git checkoutut userReg
+git push origin -u branchName
