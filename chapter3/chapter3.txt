@@ -1,8 +1,14 @@
 Branching(create branch,push to remote and delete)
 create a feature branch from master
+===>git branch feature_branch
+git checkoutut feature_branch
+or git checkoutut -b branchName
 add new files into it
+===>mysecondfile.txt
 push them to master
+===>git push oirigin -u feature_branch
 merge them to master
+===>
 delete local branch
 delete remote branch
 
@@ -13,3 +19,14 @@ when you are creating a feature branch from  the master,whatever you have on mas
 that is also present on the  feature branch
 to switch that branch --->git checkoutut userReg
 git push origin -u branchName
+
+to merge to feature branch to master we should be on master branch
+git checkoutut master
+
+git merge feature_branch(they are still in local repository (git merge featurebar
+branchName))
+to see on remote use git push
+
+when we are working in the company u have create a pull request and add reviewer
+
+
