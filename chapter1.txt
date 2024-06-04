@@ -15,7 +15,7 @@ How to install git
 Git vs. GitHub… what’s the difference? Simply put, Git is a version control system that lets you manage and keep track of your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories. If you have open-source projects that use Git, then GitHub is designed to help you better manage them. 
 
 configuration
-git --inint
+git inint
 git config --global user.name "Priyanka"
 git congig --global user.email "priyankarale.pk"
 git --list (to see configuration successfully added or not)
